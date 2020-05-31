@@ -1,4 +1,4 @@
-# Refund
+# Capture
 image:https://img.shields.io/badge/vert.x-3.9.1-purple.svg[link="https://vertx.io"]
 
 This application was generated using http://start.vertx.io
@@ -15,9 +15,9 @@ To run your application:
 ```
 
 ## Summary
-This microservice offer an endpoint for PrimeiroPay Refund service
+This microservice offer an endpoint for PrimeiroPay Capture service
 
-**URL** : `/refund/{id}`
+**URL** : `/capture/{id}`
 
 **Method** : `POST`
 
@@ -26,15 +26,15 @@ This microservice offer an endpoint for PrimeiroPay Refund service
 Provide payment.id (path), amount and currency data to do the request.
 ```json
 {
-	"entity_id":"[hash key]",
+	"entity_id": "[hash key]",
 	"amount":"[string]",
-	"currency":"[string]",
+	"currency":"[string]"
 }
 ```
 **Data example** All fields must be sent.
 ```json
 {
-	"entity_id":"8ac7a4ca6db97ef1016dbe9214e70aac",
+	"entity_id": "8ac7a4ca6db97ef1016dbe9214e70aac",
 	"amount":"10.00",
 	"currency":"EUR"
 }
