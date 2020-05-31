@@ -1,4 +1,4 @@
-# Capture
+# Refund
 image:https://img.shields.io/badge/vert.x-3.9.1-purple.svg[link="https://vertx.io"]
 
 This application was generated using http://start.vertx.io
@@ -15,9 +15,9 @@ To run your application:
 ```
 
 ## Summary
-This microservice offer an endpoint for PrimeiroPay Capture service
+This microservice offer an endpoint for PrimeiroPay Refund service
 
-**URL** : `/capture/{id}`
+**URL** : `/refund/{id}`
 
 **Method** : `POST`
 
